@@ -28,6 +28,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je storyboard:
   <img src="readme-images/chanelschets.jpeg" width="375px" alt="storyboard voor opdracht 1">
+
    <img src="readme-images/chanelschets1.jpeg" width="375px" alt="storyboard voor opdracht 1">
 
 

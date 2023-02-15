@@ -1,16 +1,17 @@
 /* CSS Document */
+@import url('https://fonts.cdnfonts.com/css/couture');
 
 /*********/
 /* FONTS */
 /*********/
-@font-face {
+/* @font-face {
 	font-family: 'eenfont';
 	src: url('../fonts/eenfont.woff2') format('woff2'),
 			 url('../fonts/eenfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
-}
+} */
 
 
 
@@ -47,11 +48,36 @@ button:not[disabled], summary {
 /****************/
 /* JOUW STYLING */
 /****************/
-body {
+/* body {
   font-family:eenfont, sans-serif;
   color:var(--color-text);
   background-color:var(--color-background);
-}
+} */
 
 /* jouw code */
+
+
+
+h1 span {
+	font-family: 'Couture', sans-serif;
+	transform: translateX(-200%);
+	animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(-45%);
+	}
+	75% {
+		transform: translateX(-52%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+}
 
