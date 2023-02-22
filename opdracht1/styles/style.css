@@ -1,20 +1,20 @@
 /* CSS Document */
-@import url('https://fonts.cdnfonts.com/css/couture');
+/* @import url('https://fonts.cdnfonts.com/css/couture'); */
 
 /*********/
 /* FONTS */
 /*********/
-/* @font-face {
-	font-family: 'eenfont';
-	src: url('../fonts/eenfont.woff2') format('woff2'),
-			 url('../fonts/eenfont.woff') format('woff');
+@font-face {
+	font-family: 'CC';
+	src: url('../fonts/couture-bld.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 
-} */
+}
 
 
 
+    
 
 
 /**************/
@@ -27,8 +27,6 @@
 button:not[disabled], summary {
 	cursor: pointer;
 }
-
-
 
 
 
@@ -56,25 +54,114 @@ button:not[disabled], summary {
 
 /* jouw code */
 
-
-
-h1 span span{
-	font-family: 'Couture', sans-serif;
-	transform: translateX(-200%);
-	animation: slide-in 1.5s forwards;
-	text-align: center;
+/* h1 span:nth-of-type(2) {
 	position: relative;
-	opacity: 0;
+	width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom: 70px solid gold;
+    
+} */
+
+/* h1 span:nth-of-type(2)::after {
+	font-family: 'Couture Bold', sans-serif;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	content: '';
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom: 70px solid red;
+	position: relative;
+	top: -50px;
+ 
+	position: absolute;
+	left: -50px;
+	top: 70px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top: 70px solid;
+} */
+
+body h1 {
+	position: relative;
+	font-family: CC, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100dvh;
+
 }
 
+body h1 span:nth-of-type(2)::after {
+	content: "";
+	position: absolute;
+	background: rgba(254, 212, 41, 0.914);
+	height: 60px;
+	width: 40px;
+	left: 16em;
+	top: 11em;
+	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
+}
 
-@keyframes slide-in {
+body h1 span:nth-of-type(2)::before {
+	content: "";
+	position: absolute;
+	background: gold;
+	height: 40px;
+	width: 40px;
+	left: 14em;
+	top: 15em;
+
+	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
+}
+
+body h1 span:nth-of-type(1)::after {
+	content: "";
+	position: absolute;
+	background: rgba(254, 212, 41, 0.914);
+	height: 60px;
+	width: 40px;
+	left: 12em;
+	top: 13em;
+
+	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
+}
+
+body h1 span:nth-of-type(1)::before {
+	content: "";
+	position: absolute;
+	background: gold;
+	height: 40px;
+	width: 40px;
+	left: 18em;
+	top: 13em;
+
+	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
+}
+
+body h1 span:nth-of-type(3)::before {
+	content: "";
+	position: absolute;
+	background: gold;
+	height: 40px;
+	width: 40px;
+	left: 14em;
+	top: 12em;
+
+	clip-path: polygon(50% 0%, 68% 30%, 50% 100%, 33% 30%);
+}
+
+/* @keyframes slide-in {
     0% { 
 		transform: ; }
     50% {
 		 bottom: -30%; }
     100% { 
 		bottom: 0; opacity: 1; }
-}
+} */
 
 
