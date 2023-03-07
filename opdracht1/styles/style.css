@@ -50,17 +50,23 @@ button:not[disabled], summary {
 /* jouw code */
 
 
-body h1 {
+html body {
 	position: relative;
 	font-family: CC, sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100dvh;
+    overflow: hidden;
+
 
 }
 
-body h1 span:nth-of-type(2)::after {
+span {
+	display: inline-block; 
+	}
+
+body h1 span:nth-of-type(1)::after{
 	content: "";
 	position: absolute;
 	background: rgba(254, 212, 41, 0.914);
@@ -69,11 +75,15 @@ body h1 span:nth-of-type(2)::after {
 	left: 16em;
 	top: 11em;
 	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
-	animation: 4s linear 0s slide-in;
-
+	animation-name:rotate;
+	animation-duration: 6s;
 }
 
-body h1 span:nth-of-type(2)::before {
+
+
+
+
+body h1 span:nth-of-type(2)::after {
 	content: "";
 	position: absolute;
 	background: gold;
@@ -83,11 +93,11 @@ body h1 span:nth-of-type(2)::before {
 	top: 15em;
 
 	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
-	animation: 2.5s linear 0s infinite running slide-in;
-
+	animation-name:rotate;
+	animation-duration: 6s;
 }
 
-body h1 span:nth-of-type(1)::after {
+body h1 span:nth-of-type(3)::after {
 	content: "";
 	position: absolute;
 	background: rgba(254, 212, 41, 0.914);
@@ -97,11 +107,10 @@ body h1 span:nth-of-type(1)::after {
 	top: 13em;
 
 	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
-	animation: 4s linear 0s infinite running slide-in;
+	animation-name:rotate;
+	animation-duration: 6s;}
 
-}
-
-body h1 span:nth-of-type(1)::before {
+body h1 span:nth-of-type(4)::after {
 	content: "";
 	position: absolute;
 	background: gold;
@@ -111,11 +120,12 @@ body h1 span:nth-of-type(1)::before {
 	top: 13em;
 
 	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
-	animation: 3s linear 0s infinite running slide-in;
+	animation-name:rotate;
+	animation-duration: 6s;
 
 }
 
-body h1 span:nth-of-type(3)::before {
+body h1 span:nth-of-type(5)::after {
 	content: "";
 	position: absolute;
 	background: gold;
@@ -125,11 +135,38 @@ body h1 span:nth-of-type(3)::before {
 	top: 11em;
 
 	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
-	animation: 2s linear 0s infinite running slide-in;
+	animation-name:rotate;
+	animation-duration: 6s;
+	
+
 }
 
-@keyframes slide-in {
-    100% { transform: rotateY(360deg) }
+
+
+@keyframes rotate {
+	0%    { opacity: 0; }
+	10%   { opacity: 0.5; }
+	20%   { transform: rotateY(360deg)}
+	30%   { opacity: 1;}
+	40%   { opacity: 0.5; }
+	50%   {transform:scale(-5)}
+	60%  { opacity: 0;}
 } 
 
+
+@keyframes c-vanchanel {
+	0%{
+		opacity: 1;
+		transform: rotateX(90deg);
+	}
+	50%{
+		opacity: 0.5;
+		transform: rotateX(0deg);
+	}
+	100%{
+		display: none;
+		opacity: 0;
+		transform: rotateX(90deg)
+	}
+}
 
