@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Isabel Kok
 
 **De opdrachten:** [opdracht 1](opdracht1/index.html) en [opdracht 2](opdracht2/index.html)
 
@@ -14,7 +14,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Bronnenlijst
-  1. -bron 1-
+  1. https://bennettfeely.com/clippy/ voor het gebruik van maken van de sparkles
   2. -bron 2-
   3. -...-
 
@@ -34,9 +34,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
+  - er achter komen hoe @keyframes werken en wat ik daar allemaal mee kan doen.
+  - Ervoor zorgen dat ik meer kennis op doe in het leren hoe je beter kan coderen.
+  - Ik wil werken aan dat ik zelf uit meer dingen kan komen want ik vind het wel lastig om soms zelf de oplossing te zien.
   - ...
  
 </details>
@@ -55,12 +55,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
+  - ik ben lekker gaan kijken hoe ik met verschillende keyframes wat kan laten bewegen.
+  - het font was eerst lasig maar dat foutje zat in een klein hoekje dus opzicht ging dat ook goed. 
 
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
+  - het is nog niet gelukt om me c van chanel te laten draaien tot in het logo te laten komen.
+  - ik weet ook niet hoe ik er voor kan zorgen dat de animatie niet weer terug komt zegmaar dat de sterretjes er in het begin niet blijven staan.
+  - ik moet ook nog kijken hoe mijn sterretjes in het midden blijven 
+  - 
 
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
 </details>
