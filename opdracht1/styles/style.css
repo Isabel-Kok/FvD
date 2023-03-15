@@ -35,7 +35,7 @@ button:not[disabled], summary {
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
+	--color-text:#000000;
 	--color-background:#eee;
 }
 
@@ -58,6 +58,7 @@ html body {
 	align-items: center;
 	height: 100dvh;
     overflow: hidden;
+	color: var(--color-text);
 
 
 }
@@ -179,14 +180,14 @@ body h1 span:nth-of-type(6)::after {
 @keyframes rotate {
 	0%    { opacity: 0; }
 	10%   { opacity: 0.5; }		
-	15%   {background-color: peachpuff;}
+	15%   { background-color: peachpuff;}
 	20%   { transform: rotateY(360deg)}
 	30%   { opacity: 1;}
-	35%   {background-color: peru;}
+	35%   { background-color: peru;}
 	40%   { opacity: 0.5; }
-	50%   {transform:scale(-5)}
-	55%   {background-color: yellow;}
-	60%  { opacity: 0;}
+	50%   { transform:scale(-5)}
+	55%   { background-color: yellow;}
+	60%   { opacity: 0;}
 } 
 
 
