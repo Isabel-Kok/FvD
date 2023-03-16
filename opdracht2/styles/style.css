@@ -55,3 +55,59 @@ body {
 
 /* jouw code */
 
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	padding: 60px 0;
+	grid: 1fr min-content min-content 1fr/1fr;
+	align-items: center;
+	justify-items: center;
+  }
+  
+  
+  section {
+	width: 100vw;
+	overflow: hidden;
+	position: relative;
+	--v-offset: 60px;
+	--curve-height: 120px;
+  }
+
+  section:before, section:after {
+	content: "";
+	display: block;
+	background-color:var(--color-background);
+	height: var(--curve-height);
+	position: absolute;
+	border-radius: 50%;
+	left: calc(-1 * var(--v-offset));
+	right: calc(-1 * var(--v-offset));
+  }
+  section:before {
+	top: calc(-0.6 * var(--curve-height));
+  }
+  section:after {
+	bottom: calc(-0.6 * var(--curve-height));
+  }
+  
+  .wrapper {
+	display: grid;
+	grid-template-rows:450px;
+	grid-auto-flow: column;
+	grid-gap: 20px;
+	overflow: auto;
+  }
+
+  .wrapper img {
+	scroll-snap-align: center;
+	height: 70%;
+  }
+
+
+  /* https://codepen.io/SimeonC/pen/WNzXewp?editors=1100 */
+  /* https://unsplash.com/s/photos/pets */
+  
+ 
+  
