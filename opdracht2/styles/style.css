@@ -82,8 +82,8 @@ body {
 	height: var(--curve-height);
 	position: absolute;
 	border-radius: 50%;
-	left: calc(-1 * var(--v-offset));
-	right: calc(-1 * var(--v-offset));
+	/* left: calc(-1 * var(--v-offset));
+	right: calc(-1 * var(--v-offset)); */
   }
   section:before {
 	top: calc(-0.6 * var(--curve-height));
