@@ -79,18 +79,9 @@ body {
 	content: "";
 	display: block;
 	background-color:var(--color-background);
-	height: var(--curve-height);
-	position: absolute;
-	border-radius: 50%;
-	/* left: calc(-1 * var(--v-offset));
-	right: calc(-1 * var(--v-offset)); */
+	
   }
-  section:before {
-	top: calc(-0.6 * var(--curve-height));
-  }
-  section:after {
-	bottom: calc(-0.6 * var(--curve-height));
-  }
+  
   
   .wrapper {
 	display: grid;
