@@ -55,6 +55,9 @@ body {
 
 /* jouw code */
 
+li {
+	list-style-type: none;
+}
 
 body {
 	width: 100vw;
@@ -95,6 +98,29 @@ body {
 	scroll-snap-align: center;
 	height: 70%;
   }
+
+
+
+
+  ul.pets li:not(.pets) {
+	display:none;
+  }
+  
+  ul.wateranimal li:not(.wateranimal) {
+	display:none;
+  }
+  
+  ul.landanimals li:not(.landanimals) {
+	display:none;
+  }
+
+  aside {
+	display: flex;
+	flex-direction: column;
+  }
+   
+
+
 
 
   /* https://codepen.io/SimeonC/pen/WNzXewp?editors=1100 */
