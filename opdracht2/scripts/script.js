@@ -21,3 +21,5 @@ function filterList(event){
   deLijst.classList.add(nieuweFilter);
 }
 
+
+
