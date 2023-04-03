@@ -239,5 +239,6 @@ body h1 span:nth-of-type(1) {
 	0% {opacity: 0;}
 	15% {opacity: 1;}
 	35% {transform: matrix(-1, 0, 0, 1, 0, 0);}
+	40% {translate: -0.5em;}
 
 }
