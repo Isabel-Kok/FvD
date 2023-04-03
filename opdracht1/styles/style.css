@@ -237,7 +237,6 @@ body h1 span:nth-of-type(1) {
 
 @keyframes mirror {
 	0% {opacity: 0;}
-	10% {position: relative;}
 	15% {opacity: 1;}
 	35% {transform: matrix(-1, 0, 0, 1, 0, 0);
 	}
