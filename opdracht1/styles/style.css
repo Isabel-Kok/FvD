@@ -193,7 +193,6 @@ body h1 span:nth-of-type(6)::after {
 	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
 	animation-name:rotate-2;
 	animation-duration: 6s;
-	
 
 }
 
