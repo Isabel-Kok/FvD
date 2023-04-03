@@ -74,7 +74,24 @@ body h1 span:nth-of-type(1){
 		animation: flip 2s ;
 	  }
 
+body h1 span:nth-of-type(n+2) {
+	opacity: 0;
 
+	animation: yo;
+	animation-duration: 7s;
+}
+
+@keyframes yo {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}
 
 @keyframes flip {
 		0% {
