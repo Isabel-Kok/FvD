@@ -71,17 +71,16 @@ span {
 body h1 span:nth-of-type(2){
 		position: relative;
 		display: inline-block;
-		animation: flip 2s ;
 	  }
 
 body h1 span:nth-of-type(n+3) {
 	opacity: 0;
 
-	animation: yo;
+	animation: letters;
 	animation-duration: 7s;
 }
 
-@keyframes yo {
+@keyframes letters {
 	0% {
 		opacity: 0;
 	}
@@ -91,27 +90,9 @@ body h1 span:nth-of-type(n+3) {
 	50% {
 		opacity: 0;
 	}
+	
 
 }
-
-@keyframes flip {
-		0% {
-		  transform: rotate(0deg);
-		}
-		25% {
-		  transform: scale(0.5) rotateY(90deg);
-		}
-		50% {
-		  transfrom: rotate(180deg);
-		}
-		75% {
-		  transform: rotateX(270deg);
-		  border-radius: 50%;
-		}
-		100% {
-		  transform: rotate(360deg);
-		}
-	  }
 
 
 
@@ -124,8 +105,6 @@ body h1 span:nth-of-type(7)::after{
 	background: rgba(254, 212, 41, 0.914);
 	height: 60px;
 	width: 40px;
-	left: 16em;
-	top: 11em;
 	opacity: 0;
 	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
 	animation-name:rotate;
@@ -133,8 +112,17 @@ body h1 span:nth-of-type(7)::after{
 }
 
 
-
-
+body h1 span:nth-of-type(2)::after {
+	content: "";
+	position: absolute;
+	background: gold;
+	height: 60px;
+	width: 40px;
+	opacity: 0;
+	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
+	animation-name:rotate-2;
+	animation-duration: 6s;
+}
 
 body h1 span:nth-of-type(3)::after {
 	content: "";
@@ -142,10 +130,7 @@ body h1 span:nth-of-type(3)::after {
 	background: gold;
 	height: 40px;
 	width: 40px;
-	left: 14em;
-	top: 15em;
 	opacity: 0;
-
 	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
 	animation-name:rotate;
 	animation-duration: 6s;
@@ -157,8 +142,6 @@ body h1 span:nth-of-type(4)::after {
 	background: rgba(254, 212, 41, 0.914);
 	height: 60px;
 	width: 40px;
-	left: 12em;
-	top: 13em;
 	opacity: 0;
 
 	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
@@ -171,8 +154,6 @@ body h1 span:nth-of-type(5)::after {
 	background: gold;
 	height: 40px;
 	width: 40px;
-	left: 18em;
-	top: 13em;
 	opacity: 0;
 
 	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
@@ -186,9 +167,6 @@ body h1 span:nth-of-type(6)::after {
 	position: absolute;
 	background: gold;
 	height: 40px;
-	width: 40px;
-	left: 14em;
-	top: 11em;
 	opacity: 0;
 
 	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
@@ -232,7 +210,7 @@ body h1 span:nth-of-type(1) {
 	transform: translateX(-0.5em);
 	animation: mirror;
 	animation-duration: 5s;
-	animation-delay: 2s;
+	animation-delay: 3.5s;
 	animation-fill-mode: forwards;
 }
 
