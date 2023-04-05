@@ -33,13 +33,23 @@ button:not[disabled], summary {
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
 :root {
-	/* startje */
-	--color-text:#000000;
-	--color-background:#eee;
+	--color-text:rgb(0, 0, 0);
+	--color-background:rgb(255, 255, 255);	
+	--color-sparkle: rgba(254, 212, 41, 0.914);
+	--color-sparkle2: gold;
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-text:rgb(255, 255, 255);
+		--color-background:rgb(0, 0, 0);
+		--color-sparkle: rgba(255, 236, 160, 0.914);
+		--color-sparkle2: rgba(255, 188, 107, 0.914);
 
+	}
+}
 
 
 
@@ -58,20 +68,22 @@ html body {
 	align-items: center;
 	height: 100dvh;
     overflow: hidden;
+	color: var(--color-background);
 	color: var(--color-text);
 
 
 }
 
+body{
+	background-color: var(--color-background);
+	color: var(--color-text);
+}
+
 span {
 	display: inline-block; 
+	
 	}
 
-
-body h1 span:nth-of-type(2){
-		position: relative;
-		display: inline-block;
-	  }
 
 body h1 span:nth-of-type(n+3) {
 	opacity: 0;
@@ -102,7 +114,7 @@ body h1 span:nth-of-type(n+3) {
 body h1 span:nth-of-type(7)::after{
 	content: "";
 	position: absolute;
-	background: rgba(254, 212, 41, 0.914);
+	color: var(--color-sparkle);
 	height: 60px;
 	width: 40px;
 	opacity: 0;
@@ -115,7 +127,7 @@ body h1 span:nth-of-type(7)::after{
 body h1 span:nth-of-type(2)::after {
 	content: "";
 	position: absolute;
-	background: gold;
+	color: var(--color-sparkle2);
 	height: 60px;
 	width: 40px;
 	opacity: 0;
@@ -127,7 +139,7 @@ body h1 span:nth-of-type(2)::after {
 body h1 span:nth-of-type(3)::after {
 	content: "";
 	position: absolute;
-	background: gold;
+	color: var(--color-sparkle2);
 	height: 40px;
 	width: 40px;
 	opacity: 0;
@@ -139,7 +151,7 @@ body h1 span:nth-of-type(3)::after {
 body h1 span:nth-of-type(4)::after {
 	content: "";
 	position: absolute;
-	background: rgba(254, 212, 41, 0.914);
+	color: var(--color-sparkle);
 	height: 60px;
 	width: 40px;
 	opacity: 0;
@@ -151,7 +163,7 @@ body h1 span:nth-of-type(4)::after {
 body h1 span:nth-of-type(5)::after {
 	content: "";
 	position: absolute;
-	background: gold;
+	color: var(--color-sparkle);
 	height: 40px;
 	width: 40px;
 	opacity: 0;
@@ -165,7 +177,7 @@ body h1 span:nth-of-type(5)::after {
 body h1 span:nth-of-type(6)::after {
 	content: "";
 	position: absolute;
-	background: gold;
+	color: var(--color-sparkle2);
 	height: 40px;
 	opacity: 0;
 
@@ -219,6 +231,21 @@ body h1 span:nth-of-type(1) {
 	15% {opacity: 1;}
 	35% {transform: scaleX(-1);}
 	40% {translate: -0.5em;}
+	50% {font-size:2em }
 	100% {opacity: 1;}
+
+}
+
+body h1 span:nth-of-type(2){
+	position: relative;
+	display: inline-block;
+
+	animation: groter;
+	animation-delay: 3.5s;
+	animation-duration: 5s;
+  }
+
+@keyframes groter {
+	50% {font-size:2em }
 
 }

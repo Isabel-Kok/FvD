@@ -15,7 +15,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Bronnenlijst
   1. https://bennettfeely.com/clippy/ voor het gebruik van maken van de sparkles
-  2. -bron 2-
+  2. https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes voor kijken naar keyframes
   3. -...-
 
 
@@ -85,7 +85,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
+  - hoe een sorteringssysteem werkt 
   - punt 2
   - nog een punt
   - ...
