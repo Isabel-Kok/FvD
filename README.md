@@ -109,16 +109,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 - kleine animatie er in toevoegen
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-  Ik heb wel alle onderdelen maar niet allemaal bij elkaar dat lukt niet. Daarom zou ik willen dat alles bij elkaar kan zonder dat dit complecaties met zich mee brengt. 
-
-
+  - via javascript 
+  - is niet gelukt of nouja klikken kan
+  - heb ik wel in codepen
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  alles bij elkaar ! En ik vind het echt jammer dat het me niet is gelukt. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Als ik het zou kunnen oplossen had ik een mooi eindresultaat gekregen denk ik maar jammergenoeg is dit niet gelukt. 
 
 </details>
 
