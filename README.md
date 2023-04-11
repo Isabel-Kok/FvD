@@ -86,8 +86,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
   - hoe een sorteringssysteem werkt 
-  - punt 2
-  - nog een punt
+  - hoe ik met meerdere manieren kan bewegen
+  - swiper/ carousel maken
   - ...
 </details>
 
@@ -104,6 +104,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+- het swipe systeem
+- hoe je met meerdere manieren kon besturen
+- kleine animatie er in toevoegen
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
