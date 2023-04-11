@@ -15,7 +15,7 @@ optionPets.addEventListener("change", filterList);
 
 
 function filterList(event){
-  let deLijst = document.querySelector("ul");
+  let deLijst = document.querySelector("div");
   let nieuweFilter = event.target.value;
   deLijst.className = "";
   deLijst.classList.add(nieuweFilter);

@@ -10,23 +10,34 @@
 </head>
 <body>
     <main>
+        <div class="btncontainer">
+            <button class="btn active" onclick="filterSelection('all')">All</button>
+            <button class="btn" onclick="filterSelection('wateranimal')">Wateranimal</button>
+        </div>
         <div class="slideshow">
-            <div class="slide fade">
-                <img src="img/dolfijn.jpg" alt="test">
-                <div class="text">testing</div>
+            <div class="filter wateranimal">
+                <div class="slide fade">
+                    <img src="img/dolfijn.jpg" alt="test">
+                    <div class="text">testing</div>
+                </div>
             </div>
-            <div class="slide fade">
-                <img src="img/cavia.jpg" alt="test">
-                <div class="text">testing</div>
+            <div class="filter wateranimal">
+                <div class="slide fade">
+                    <img src="img/cavia.jpg" alt="test">
+                    <div class="text">testing</div>
+                </div>
             </div>
-            <div class="slide fade">
-                <img src="img/giraf.jpg" alt="test">
-                <div class="text">testing</div>
+            <div class="filter">
+                <div class="slide fade">
+                    <img src="img/giraf.jpg" alt="test">
+                    <div class="text">testing</div>
+                </div>
             </div>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
     </main>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/filter.js"></script>
 </body>
 </html>
