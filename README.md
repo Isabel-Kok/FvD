@@ -80,7 +80,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je ontwerp:
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="ontwerp opdracht 2">
+  <img src="readme-images/schets2.jpeg" width="375px" alt="ontwerp opdracht 2">
 
 
   ### Je ambitie: 
@@ -110,6 +110,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb wel alle onderdelen maar niet allemaal bij elkaar dat lukt niet. Daarom zou ik willen dat alles bij elkaar kan zonder dat dit complecaties met zich mee brengt. 
 
 
 
@@ -133,9 +134,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken bij afronden opdracht (voor week 8)</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitkomst opdracht 2">
-
-
+  <img src="readme-images/photoalbum.png" width="375px" alt="uitkomst opdracht 2">
+ <img src="readme-images/anderepoging.png" width="375px" alt="uitkomst opdracht 2">
+ <img src="readme-images/waaromdoethijhethierwel.png" width="375px" alt="uitkomst opdracht 2">
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
 
