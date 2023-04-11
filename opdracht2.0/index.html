@@ -10,43 +10,34 @@
 </head>
 <body>
     <main>
-        <div class="container">
-            <li>
-                <li>
-                    <input type="radio" name="filter" class="radio" value="all" id="filter-all" checked>
-                    <label for="filter-all">all</label>
-                </li>
-                <li>
-                    <input type="radio" name="filter" class="radio" value="wateranimal" id="filter-wateranimal">
-                    <label for="filter-people">waterdieren</label>
-                </li>
-                <li>
-                    <input type="radio" name="filter" class="radio" value="landanimals" id="filter-landanimals">
-                    <label for="filter-animals">landdieren</label>
-                </li>
-                <li>
-                    <input type="radio" name="filter" class="radio" value="pets" id="filter-pets">
-                    <label for="filter-items">huisdieren</label>
-                </li>
-            </li>
-        </div>	
+        <div class="btncontainer">
+            <button class="btn active" onclick="filterSelection('all')">All</button>
+            <button class="btn" onclick="filterSelection('wateranimal')">Wateranimal</button>
+        </div>
         <div class="slideshow">
-            <div class="slide fade wateranimal">
-                <img src="img/dolfijn.jpg" alt="test">
-                <div class="text">testing</div>
+            <div class="filter wateranimal">
+                <div class="slide fade">
+                    <img src="img/dolfijn.jpg" alt="test">
+                    <div class="text">testing</div>
+                </div>
             </div>
-            <div class="slide fade landanimals">
-                <img src="img/cavia.jpg" alt="test">
-                <div class="text">testing</div>
+            <div class="filter wateranimal">
+                <div class="slide fade">
+                    <img src="img/cavia.jpg" alt="test">
+                    <div class="text">testing</div>
+                </div>
             </div>
-            <div class="slide fade wateranimal">
-                <img src="img/giraf.jpg" alt="test">
-                <div class="text">testing</div>
+            <div class="filter">
+                <div class="slide fade">
+                    <img src="img/giraf.jpg" alt="test">
+                    <div class="text">testing</div>
+                </div>
             </div>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
     </main>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/filter.js"></script>
 </body>
 </html>
