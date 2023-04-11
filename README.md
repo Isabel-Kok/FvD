@@ -102,7 +102,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-  ### Bevinding 1:
+  ### Bevindingen:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 - het swipe systeem
 - hoe je met meerdere manieren kon besturen
@@ -120,10 +120,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
-
-
-  ### Bevinding 3:
-  ...
 </details>
 
 
@@ -145,6 +141,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
-
+- alle dingen bij elkaar toevoegen is niet gelukt
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
 </details>
