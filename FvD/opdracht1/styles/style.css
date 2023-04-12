@@ -1,0 +1,251 @@
+/* CSS Document */
+/* @import url('https://fonts.cdnfonts.com/css/couture'); */
+
+/*********/
+/* FONTS */
+/*********/
+@font-face {
+	font-family: 'CC';
+	src: url('../fonts/couture-bld.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+
+    
+
+
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+button:not[disabled], summary {
+	cursor: pointer;
+}
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+
+:root {
+	--color-text:rgb(0, 0, 0);
+	--color-background:rgb(255, 255, 255);	
+	--color-sparkle: rgba(254, 212, 41, 0.914);
+	--color-sparkle2: gold;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-text:rgb(255, 255, 255);
+		--color-background:rgb(0, 0, 0);
+		--color-sparkle: rgba(255, 236, 160, 0.914);
+		--color-sparkle2: rgba(255, 188, 107, 0.914);
+
+	}
+}
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+
+html body {
+	position: relative;
+	font-family: CC, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100dvh;
+    overflow: hidden;
+	color: var(--color-background);
+	color: var(--color-text);
+
+
+}
+
+body{
+	background-color: var(--color-background);
+	color: var(--color-text);
+}
+
+span {
+	display: inline-block; 
+	
+	}
+
+
+body h1 span:nth-of-type(n+3) {
+	opacity: 0;
+
+	animation: letters;
+	animation-duration: 7s;
+}
+
+@keyframes letters {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	
+
+}
+
+
+
+
+
+
+body h1 span:nth-of-type(7)::after{
+	content: "";
+	position: absolute;
+	color: var(--color-sparkle);
+	height: 60px;
+	width: 40px;
+	opacity: 0;
+	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
+	animation-name:rotate;
+	animation-duration: 6s;
+}
+
+
+body h1 span:nth-of-type(2)::after {
+	content: "";
+	position: absolute;
+	color: var(--color-sparkle2);
+	height: 60px;
+	width: 40px;
+	opacity: 0;
+	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
+	animation-name:rotate-2;
+	animation-duration: 6s;
+}
+
+body h1 span:nth-of-type(3)::after {
+	content: "";
+	position: absolute;
+	color: var(--color-sparkle2);
+	height: 40px;
+	width: 40px;
+	opacity: 0;
+	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
+	animation-name:rotate;
+	animation-duration: 6s;
+}
+
+body h1 span:nth-of-type(4)::after {
+	content: "";
+	position: absolute;
+	color: var(--color-sparkle);
+	height: 60px;
+	width: 40px;
+	opacity: 0;
+
+	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
+	animation-name:rotate-2;
+	animation-duration: 6s;}
+
+body h1 span:nth-of-type(5)::after {
+	content: "";
+	position: absolute;
+	color: var(--color-sparkle);
+	height: 40px;
+	width: 40px;
+	opacity: 0;
+
+	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
+	animation-name:rotate-2;
+	animation-duration: 6s;
+
+}
+
+body h1 span:nth-of-type(6)::after {
+	content: "";
+	position: absolute;
+	color: var(--color-sparkle2);
+	height: 40px;
+	opacity: 0;
+
+	clip-path: polygon(50% 0%, 78% 50%, 50% 100%, 24% 50%);
+	animation-name:rotate-2;
+	animation-duration: 6s;
+
+}
+
+
+
+@keyframes rotate {
+	0%    { opacity: 0; }
+	10%   { opacity: 0.5; }		
+	15%   { background-color: peachpuff;}
+	20%   { transform: rotateY(360deg)}
+	30%   { opacity: 1;}
+	35%   { background-color: peru;}
+	40%   { opacity: 0.5; }
+	50%   { transform:scale(-5)}
+	55%   { background-color: yellow;}
+	60%   { opacity: 0;}
+} 
+
+
+@keyframes rotate-2 {
+	0%    { opacity: 0; }
+	10%   { opacity: 0.5; }		
+	15%   {background-color: silver;}
+	20%   { transform: rotateY(360deg)}
+	30%   { opacity: 1.5;}
+	35%   {background-color: wheat;}
+	40%   { opacity: 0.5; }
+	50%   {transform:scale(-4)}
+	55%   {background-color: yellow;}
+	60%  { opacity: 0;}
+} 
+
+body h1 span:nth-of-type(1) {
+	position: absolute;
+	opacity: 0;
+	transform: translateX(-0.5em);
+	animation: mirror;
+	animation-duration: 5s;
+	animation-delay: 3.5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes mirror {
+	0% {opacity: 0;}
+	15% {opacity: 1;}
+	35% {transform: scaleX(-1);}
+	40% {translate: -0.5em;}
+	50% {font-size:2em }
+	100% {opacity: 1;}
+
+}
+
+body h1 span:nth-of-type(2){
+	position: relative;
+	display: inline-block;
+
+	animation: groter;
+	animation-delay: 3.5s;
+	animation-duration: 5s;
+  }
+
+@keyframes groter {
+	50% {font-size:2em }
+
+}

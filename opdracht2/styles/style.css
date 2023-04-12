@@ -40,7 +40,14 @@ button:not[disabled], summary {
 	--color-background:#eee;
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-text:rgb(255, 255, 255);
+		--color-background:rgb(0, 0, 0);
+		
 
+	}
+}
 
 
 
@@ -86,19 +93,32 @@ body {
   }
   
   
-  img {
+  .wrapper {
 	display: grid;
-	width:80%;
-    height: auto;
+	grid-template-rows:450px;
+	grid-auto-flow: column;
+	grid-gap: 20px;
+	overflow: auto;
+
+
+	
+  }
+
+  .wrapper img {
+	height: 70%;
 	padding: 0 100px;
-	margin-left: auto;
-	margin-right: auto;
+	filter: drop-shadow(0px 10px 10px rgba(0,0,0,0.55));
 
   }
 
-	
-  
-  
+	h2 {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: small;
+ 
+}
+
+
  
 
   
@@ -107,7 +127,7 @@ body {
 
 
 
-   ul.pets li:not(.pets) {
+  ul.pets li:not(.pets) {
 	display:none;
   }
   
@@ -119,8 +139,10 @@ body {
 	display:none;
   }
 
- 
-  
+  aside {
+	display: flex;
+	flex-direction: column;
+  }
    
 
 
@@ -128,6 +150,7 @@ body {
 
   /* https://codepen.io/SimeonC/pen/WNzXewp?editors=1100 */
   /* https://unsplash.com/s/photos/pets */
+  
  
-
+  
 
