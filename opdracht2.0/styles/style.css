@@ -1,0 +1,42 @@
+
+
+
+
+img{
+    max-width: 80%;
+    margin: auto;
+    display: block;
+    max-height: 500px ;
+    padding-top: 100px;
+}
+
+.swiper {
+    width: 80%;
+    height: 700px;
+	
+	
+  }
+  
+  .hidden {
+      display: none;
+  }
+
+
+
+
+  ul.pets li:not(.pets) {
+	display:none;
+  }
+  
+  ul.wateranimal li:not(.wateranimal) {
+	display:none;
+  }
+  
+  ul.landanimals li:not(.landanimals) {
+	display:none;
+  }
+
+  aside {
+	display: flex;
+	flex-direction: column;
+  }

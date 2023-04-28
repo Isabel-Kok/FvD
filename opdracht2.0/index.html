@@ -6,36 +6,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opdracht 2: Interactie galore - Frontend voor Designers</title>
 
-    <link href="styles/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
     <main>
-        <div class="btncontainer">
-            <button class="btn active" onclick="filterSelection('all')">All</button>
-            <button class="btn" onclick="filterSelection('wateranimal')">Wateranimal</button>
-        </div>
+        <section>
+            <div class="wrapper">
+        
+        <aside>
+            <li>
+                <li>
+          <input type="radio" name="filter" value="all" id="filter-all" checked>
+            <label for="filter-all">all</label>
+        </li>
+        <li>
+          <input type="radio" name="filter" value="wateranimal" id="filter-wateranimal">
+            <label for="filter-people">waterdieren</label>
+        </li>
+        <li>
+            <input type="radio" name="filter" value="landanimals" id="filter-landanimals">
+            <label for="filter-animals">landdieren</label>
+        </li>
+        <li>
+            <input type="radio" name="filter" value="pets" id="filter-pets">
+            <label for="filter-items">huisdieren</label>
+        </li>
+           </li>
+          </aside>
+        
+        
+              <ul class="all">
+
         <div class="swiper">
             <div class="swiper-wrapper">
+                <!-- Slides -->
+               
+                <div class="swiper-slide"> 
+                    <li class="pets"><h2>cavia</h2>
+                    <img src="img/cavia.jpg" alt="foto van cavia"></li></div>
+                <div class="swiper-slide">
+                    <li class="landanimals"><h2>giraf</h2>
+                    <img src="img/giraf.jpg" alt="foto van cavia">
+                </li></div>
+                <div class="swiper-slide">
+                    <li class="wateranimal"><h2>dolfijn</h2>
+                    <img src="img/dolfijn.jpg" alt="foto van dolfijn">
+                </li></div>
+                <div class="swiper-slide">
+                    <li class="pets"><h2>hamster</h2>
+                    <img src="img/hamster.jpg" alt="foto van hamster">
+                </li></div>
+                <div class="swiper-slide">
+                    <li class="landanimals"><h2>hert</h2>
+                    <img src="img/hert.jpg" alt="foto van hert">
+                </li></div>
+                <div class="swiper-slide">
+                    <li class="landanimals"><h2>koala</h2>
+                    <img src="img/koala.jpg" alt="foto van koala">
+                </li></div>
+                <div class="swiper-slide">
+                    <li class="wateranimal"><h2>kwal</h2>
+                    <img src="img/kwal.jpg" alt="foto van kwal">
+                </li></div>
+                <div class="swiper-slide">
+                    <li class="landanimals"><h2>leeuw</h2>
+                    <img src="img/leeuw.jpg" alt="foto van leeuw">
+                </li> </div>
+                <div class="swiper-slide">
+                    <li class="wateranimal"><h2>nemo</h2>
+                    <img src="img/nemo.jpg" alt="foto van nemo">
+                </li></div>
+                <div class="swiper-slide">
+                    <li class="landanimals"><h2>neushoorn</h2>
+                    <img src="img/neushoorn.jpg" alt="foto van neushoorn">
+                </li></div>
+                <div class="swiper-slide">
+                    <li class="pets"><h2>poes</h2>
+                    <img src="img/poes.jpg" alt="foto van poes">
+                </li> </div>
+                <div class="swiper-slide">
+                    <li class="wateranimal"><h2>schildpad</h2>
+                    <img src="img/schildpad.jpg" alt="foto van schildpad">
+                </li> </div>
+                <div class="swiper-slide">
+                    <li class="landanimals"><h2>slang</h2>
+                    <img src="img/slang.jpg" alt="foto van slang">
+                </li> </div>
+                <div class="swiper-slide">
+                    <li class="wateranimal"><h2>walvis</h2>
+                    <img src="img/walvis.jpg" alt="foto van walvis">
+                </li></div>
+                <div class="swiper-slide">
+                    <li class="wateranimal"><h2>zeester</h2>
+                    <img src="img/zeester.jpg" alt="foto van zeester">
+                </li></div>
+                
 
-            <div class="filter wateranimal">
-                <div class="swiper-slide"><img src="img/dolfijn.jpg" alt="test"></div>
-                <div class="hidden"><img src="img/cavia.jpg" alt="test"></div>
-                <div class="swiper-slide">Slide 3</div>
-              </div>   
-            </div>                  
+
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+            
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            
+            <!-- Scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+        </div> </ul>
+    <section>       
                     
               
             
-        
-        
-                    
-            
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
         </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/filter.js"></script>
 </body>
 </html>
