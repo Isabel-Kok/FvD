@@ -98,10 +98,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na testen (week 7)</summary>
 
-  Neem minimaal 5 bevindingen op:
-
-
-
   ### Bevindingen:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 - het swipe systeem
@@ -113,11 +109,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - is niet gelukt of nouja klikken kan
   - heb ik wel in codepen
 
-  ### Bevinding 2:
-  alles bij elkaar ! En ik vind het echt jammer dat het me niet is gelukt. 
-
   #### oplossing:
-  Als ik het zou kunnen oplossen had ik een mooi eindresultaat gekregen denk ik maar jammergenoeg is dit niet gelukt. 
+  Een bestand vanuit een soort van andere server oproepen en dan zo er een slider van maken.
 
 </details>
 
@@ -132,8 +125,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/photoalbum.png" width="375px" alt="uitkomst opdracht 2">
  <img src="readme-images/anderepoging.png" width="375px" alt="uitkomst opdracht 2">
  <img src="readme-images/waaromdoethijhethierwel.png" width="375px" alt="uitkomst opdracht 2">
+  
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Het ging goed met het filteren daar was ik wel heel blij mee
+  Ook was ik blij met dat de twee dingen nu wel samengevoegd werd
 
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
 
@@ -141,5 +136,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
 - alle dingen bij elkaar toevoegen is niet gelukt
+- het vormgeven van de buttons bij het filteren
+- het filteren ervoor zorgen dat er geen witte vlakken zijn
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
 </details>
