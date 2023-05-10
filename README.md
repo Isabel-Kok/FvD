@@ -50,7 +50,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Chanelwoord.jpg" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -58,7 +58,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - ik ben lekker gaan kijken hoe ik met verschillende keyframes wat kan laten bewegen.
   - het font was eerst lasig maar dat foutje zat in een klein hoekje dus opzicht ging dat ook goed. 
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+  <img src="readme-images/chanellogo.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -66,9 +66,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - het is nog niet gelukt om me c van chanel te laten draaien tot in het logo te laten komen.
   - ik weet ook niet hoe ik er voor kan zorgen dat de animatie niet weer terug komt zegmaar dat de sterretjes er in het begin niet blijven staan.
   - ik moet ook nog kijken hoe mijn sterretjes in het midden blijven 
-  - 
-
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+  - alles is nu wel gelukt !!!!
 </details>
 
 
