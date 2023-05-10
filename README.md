@@ -128,7 +128,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Het ging goed met het filteren daar was ik wel heel blij mee
   Ook was ik blij met dat de twee dingen nu wel samengevoegd werd
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+  <img src="readme-images/lookandfeel.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -136,5 +136,5 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 - alle dingen bij elkaar toevoegen is niet gelukt
 - het vormgeven van de buttons bij het filteren
 - het filteren ervoor zorgen dat er geen witte vlakken zijn
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+  <img src="readme-images/button.jpg" width="375px" alt="bummer">
 </details>
