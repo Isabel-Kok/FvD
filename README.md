@@ -122,7 +122,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je uitkomst - karakteristiek screenshot(s):
   <img src="readme-images/photoalbum.png" width="375px" alt="uitkomst opdracht 2">
  <img src="readme-images/anderepoging.png" width="375px" alt="uitkomst opdracht 2">
- <img src="readme-images/waaromdoethijhethierwel.png" width="375px" alt="uitkomst opdracht 2">
+ 
   
   ### Dit ging goed/Heb ik geleerd: 
   Het ging goed met het filteren daar was ik wel heel blij mee
