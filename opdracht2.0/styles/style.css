@@ -2,27 +2,24 @@
 	--color-text:rgb(0, 0, 0);
 	--color-background:rgb(255, 255, 255);	
 
-    --color: #999;
-    --checked-color: #ff5722;
-
-    --swiper-pagination-color: deeppink;
-
-    --swiper-navigation-color: lightpink;
-    --swiper-scrollbar-size: 0px;
-
-
-    --swiper-pagination-bullet-inactive-color:lightpink;
-    --swiper-pagination-bullet-inactive-opacity:1;
+  --swiper-pagination-color: white;
+  --swiper-navigation-color: white;
+  --swiper-scrollbar-size: 0px;
+  --swiper-pagination-bullet-inactive-color:black;
+  --swiper-pagination-bullet-inactive-opacity:1;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--color-text:rgb(255, 255, 255);
 		--color-background:rgb(0, 0, 0);
+    
+    --swiper-pagination-color: black;
+    --swiper-navigation-color: white;
+    --swiper-pagination-bullet-inactive-color:white;
+
 	}
-  .swiper-slide{
-    background-image: radial-gradient(rgb(255, 255, 255),rgb(255, 255, 255), rgb(0, 0, 0), rgb(0, 0, 0));
-  }
+  
 }
 
 body {
@@ -31,23 +28,14 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
 /* carousel */
 
 .swiper {
     width: 100vw;
     height: 100vh;
-	
-  }
+}
 
-  h2{
+h2{
     font-size: 2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
@@ -57,40 +45,24 @@ body {
     line-height: 1.5em;
     z-index: 200;
     text-shadow: 
-      0 0 .25em #ffabf0,
+      0 0 .25em #fff,
       0 0 .5em #fff,
-      0 0 1em #fff;
-  
-  }
-
- 
-
-  img{
-    height:100%;
-    width:100%;
-    object-fit: cover;
-    object-position: center;
-    display: block;
-    /* filter: drop-shadow(0px 10px 10px rgba(0,0,0,0.55)); */
+      0 0 1em #fff;  
 }
 
 
-/* FILTER ON CAROUSEL */
-.hidden {
-    display: none;
+img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
-section.pets div div div:not(.pets) {
-	opacity:0;
+section div div div {
+  display:none;
 }
-  
-section.wateranimal div div div:not(.wateranimal) {
-	opacity:0;
-}
-  
-section.landanimals div div div:not(.landanimals) {
-	opacity:0;
-}
+
 
 /* Button pause play */
 button {
@@ -98,14 +70,12 @@ button {
   right: 2em;
   bottom: 2em;
   z-index: 200;
-  background-color: pink;
+  background-color: var(--color-background);
   padding: 1em;
+  border-radius:1em;
   
+
 }
-
-
-
-
 
 
 /* FILTER OPTIONS */
@@ -145,12 +115,6 @@ input:checked + label {
 
 
 
-/* input:hover {
-    background: #fff;
-    box-shadow: 0px 2px 20px 10px rgb(59, 59, 59);
-    color: #000;
-} */
-
 img:hover{
   filter: drop-shadow(0px 10px 10px rgb(0, 0, 0));
 
@@ -167,11 +131,3 @@ input[type="radio"] {
   width: 1.2rem;
   margin-right: 0.5rem;
 }
-
-
-
-
-
-
-
-
