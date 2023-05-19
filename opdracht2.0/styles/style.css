@@ -7,6 +7,8 @@
   --swiper-scrollbar-size: 0px;
   --swiper-pagination-bullet-inactive-color:black;
   --swiper-pagination-bullet-inactive-opacity:1;
+  --color-selected:rgb(233, 111, 244);
+
 
 }
 
@@ -19,7 +21,6 @@
     --swiper-pagination-color: black;
     --swiper-navigation-color: white;
     --swiper-pagination-bullet-inactive-color:white;
-
 	}
   
 }
@@ -27,7 +28,6 @@
 body {
   margin:0;
 }
-
 
 /* carousel */
 
@@ -51,7 +51,6 @@ h2{
       0 0 1em #fff;  
 }
 
-
 img{
   height:100%;
   width:100%;
@@ -65,17 +64,50 @@ section div div div {
 }
 
 
-/* Button pause play */
+/* Button pause play https://codepen.io/mccombsc/pen/ZEzxWPy */
 button {
   position: fixed;
   right: 2em;
   bottom: 2em;
   z-index: 200;
-  background-image:linear-gradient(rgb(233, 111, 244), rgb(105, 35, 245)) ;
-  padding: 1em;
   border-radius:1em;
-
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  background: linear-gradient(90deg, rgb(233, 111, 244) 0%, rgb(173, 10, 191) 100%);
+  border: none;
+  box-shadow: 12px 12px 24px rgb(233, 111, 244);
+  transition: all 0.3s ease-in-out 0s;
+  padding: 10px;
 }
+
+
+button::after {
+  content: '';
+  border-radius: 100%;
+  border: 6px solid rgb(233, 111, 244);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+@keyframes ring {
+  0% {
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+  }
+}
+
+
+
 
 
 /* FILTER OPTIONS */
@@ -100,7 +132,7 @@ label{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1em;
   color: var(--color-text);
-  background-image:linear-gradient(rgb(233, 111, 244), rgb(105, 35, 245)) ;
+  background-image:linear-gradient(rgb(66, 66, 66), rgb(145, 145, 145)) ;
   padding:1em;
   border-radius:1em;
   line-height: 1em;
@@ -109,8 +141,8 @@ label{
 
 input:checked + label {
   color:var(--color-selected);
-  background-color: var(--color-background);
 }
+
 
 
 

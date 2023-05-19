@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Bronnenlijst
   1. https://bennettfeely.com/clippy/ voor het gebruik van maken van de sparkles
   2. https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes voor kijken naar keyframes
-  3. -...-
+  3. https://codepen.io/mccombsc/pen/ZEzxWPy 
 
 
 
