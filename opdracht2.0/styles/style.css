@@ -1,18 +1,20 @@
 :root {
 	--color-text:rgb(0, 0, 0);
-	--color-background:rgb(255, 255, 255);	
+	--color-selected:rgb(255, 255, 255);	
 
   --swiper-pagination-color: white;
   --swiper-navigation-color: white;
   --swiper-scrollbar-size: 0px;
   --swiper-pagination-bullet-inactive-color:black;
   --swiper-pagination-bullet-inactive-opacity:1;
+
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--color-text:rgb(255, 255, 255);
 		--color-background:rgb(0, 0, 0);
+    --color-selected:rgb(233, 111, 244);
     
     --swiper-pagination-color: black;
     --swiper-navigation-color: white;
@@ -24,7 +26,6 @@
 
 body {
   margin:0;
-  background-color: var(--color-background);
 }
 
 
@@ -70,10 +71,9 @@ button {
   right: 2em;
   bottom: 2em;
   z-index: 200;
-  background-color: var(--color-background);
+  background-image:linear-gradient(rgb(233, 111, 244), rgb(105, 35, 245)) ;
   padding: 1em;
   border-radius:1em;
-  
 
 }
 
@@ -100,7 +100,7 @@ label{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1em;
   color: var(--color-text);
-  background-color: pink;
+  background-image:linear-gradient(rgb(233, 111, 244), rgb(105, 35, 245)) ;
   padding:1em;
   border-radius:1em;
   line-height: 1em;
@@ -108,26 +108,10 @@ label{
 }
 
 input:checked + label {
-  color:pink;
-  background-color: black;
+  color:var(--color-selected);
+  background-color: var(--color-background);
 }
 
 
 
 
-img:hover{
-  filter: drop-shadow(0px 10px 10px rgb(0, 0, 0));
-
-}
-
-
-
-
-
-
-
-input[type="radio"] {
-  height: 1.2rem;
-  width: 1.2rem;
-  margin-right: 0.5rem;
-}
