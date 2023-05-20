@@ -7,7 +7,10 @@
   --swiper-scrollbar-size: 0px;
   --swiper-pagination-bullet-inactive-color:black;
   --swiper-pagination-bullet-inactive-opacity:1;
-  --color-selected:rgb(233, 111, 244);
+  --color-selected:rgb(58, 255, 71);
+  --color-arrows: rgb(58, 255, 71);
+  --color-button:rgb(58, 255, 71); 
+  --color-play: linear-gradient(90deg, rgb(58, 255, 71) 0%, rgb(30, 156, 5) 100%);
 
 
 }
@@ -17,6 +20,9 @@
 		--color-text:rgb(255, 255, 255);
 		--color-background:rgb(0, 0, 0);
     --color-selected:rgb(233, 111, 244);
+    --color-arrows: rgb(233, 111, 244);
+    --color-button:rgb(233, 111, 244); 
+    --color-play: linear-gradient(90deg, rgb(233, 111, 244) 0%, rgb(173, 10, 191) 100%);
     
     --swiper-pagination-color: black;
     --swiper-navigation-color: white;
@@ -74,9 +80,9 @@ button {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
-  background: linear-gradient(90deg, rgb(233, 111, 244) 0%, rgb(173, 10, 191) 100%);
+  background:var(--color-play);
   border: none;
-  box-shadow: 12px 12px 24px rgb(233, 111, 244);
+  box-shadow: 10px 10px 24px var(--color-button);
   transition: all 0.3s ease-in-out 0s;
   padding: 10px;
 }
@@ -85,12 +91,12 @@ button {
 button::after {
   content: '';
   border-radius: 100%;
-  border: 6px solid rgb(233, 111, 244);
+  border: 6px solid var(--color-arrows);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: ring 1.5s infinite;
+  animation: ring 2s infinite;
 }
 
 @keyframes ring {
@@ -120,7 +126,10 @@ aside {
 	flex-direction: row;
   gap: 1em;
   justify-content: center;
-  
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+
 }
 
 input {
@@ -132,7 +141,7 @@ label{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1em;
   color: var(--color-text);
-  background-image:linear-gradient(rgb(66, 66, 66), rgb(145, 145, 145)) ;
+  background-image:linear-gradient(rgb(15, 14, 14), rgb(135, 124, 124)) ;
   padding:1em;
   border-radius:1em;
   line-height: 1em;
@@ -144,6 +153,11 @@ input:checked + label {
 }
 
 
+div.swiper-button-next{
+  color:var(--color-button) ;
+}
 
-
+div.swiper-button-prev{
+  color:var(--color-button) ;
+}
 
