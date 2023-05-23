@@ -87,6 +87,9 @@ button {
   padding: 10px;
 }
 
+button:hover{
+  color: rgb(255, 255, 255);
+}
 
 button::after {
   content: '';
