@@ -28,6 +28,10 @@
     --swiper-navigation-color: white;
     --swiper-pagination-bullet-inactive-color:white;
 	}
+
+  img {
+    filter:brightness(.85);
+  }
   
 }
 
@@ -115,6 +119,10 @@ button::after {
   }
 }
 
+button.sstt::after{
+  display: none;
+  animation: none;
+}
 
 
 
@@ -153,6 +161,10 @@ label{
 
 input:checked + label {
   color:var(--color-selected);
+}
+
+input:focus + label{
+  scale: 1.1;
 }
 
 

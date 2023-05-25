@@ -77,6 +77,7 @@ function play() {
   swiper.autoplay.start();
   // tekst veranderen in play
   playpauseButton.innerHTML = "pauze"
+  playpauseButton.classList.add("sstt")
 }
 
 // SWIPER STOPPEN
@@ -85,6 +86,8 @@ function stop() {
   swiper.autoplay.stop();
   // tekst veranderen in play
   playpauseButton.innerHTML = "play"
+  playpauseButton.classList.remove("sstt")
+
 }
 
 
